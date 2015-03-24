@@ -33,5 +33,6 @@ which is given a port number. A network is combination of an ip address and a po
 <h2>Documentation</h2>
 <p>
 <ul></li>ServerSocket : http://docs.oracle.com/javase/7/docs/api/java/net/ServerSocket.html</li>
+<li>Socket : http://docs.oracle.com/javase/7/docs/api/java/net/Socket.html</li>
 </ul>
 </p>
