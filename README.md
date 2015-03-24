@@ -7,8 +7,6 @@ This could be useful to all undergrad students who are willing to learn network 
 <li> Client Server chat TCP and UDP.</li>
 <li> Remote Method Invocation (RMI) .</li>
 <li> HTTP Connection.</li></ol>
-<h2>Transmission Contol Protocol(TCP)</h2>
-<h2>User Datagram Protocol(UDP)</h2>
 <h2>Socket</h2>
 <p>End point of a two-way connection (Terminals) 
 which is given a port number. A network is combination of an ip address and a port number.  </p>
