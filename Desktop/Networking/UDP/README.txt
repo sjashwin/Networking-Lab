@@ -15,3 +15,24 @@ javac *.java - Compiles all the files in the current folder.
 
 	In file transfer the file will be created in the folder 
 named file.
+
+----------------------------------------------------------------
+
+	Creation of Socket :
+	DatagramSocket socket = new DatagramSocket( int port ) ; //Client side.
+	DatagramSocket socket = new DatagramSoket() ; //Server side.
+	
+-----------------------------------------------------------------
+
+	Creation of DatagramPacket :
+	//Sending a packet .
+	DatagramPacket packet = new DatagramPacket( Byte[] data, int dataLength, InetAddress host, int port ) ;
+	//Receiving a packet .
+	DatagramPacket packet = new DatagramPacket( Byte[] data, int dataLength) ;
+	
+---------------------------------------------------------------------
+
+	Packets are send and received through binding the receive( DatagramPacket packet ) 
+and send( DatagramPacket packet ) ;
+
+-----------------------------------------------------------------------
