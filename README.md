@@ -11,4 +11,6 @@ This could be useful to all undergrad students who are willing to network progra
 ```java
 //Client side.
 Socket socket = new Socket( InetAddress host, int port ) ;
+//Server side.
+ServerSocket server = new ServerSocket( int port ) ;
 ```
