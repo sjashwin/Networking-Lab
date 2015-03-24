@@ -14,7 +14,7 @@ which is given a port number. A network is combination of an ip address and a po
 <p>Port is an apartment number and a socket is an apartment.</p>
 <h2>Transmission Control Protocol (TCP)</h2>
 ```java
-  Socket socket = new Socket( InetAddress host, int port ) ;  //Client side
+  Socket socket = new Socket( String host, int port ) ;  //Client side
   Socket socket = new Socket ( int port ) ; //Serve side
 ```
 <h2>User Datagram Protocol (UDP) </h2>
