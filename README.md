@@ -8,14 +8,14 @@ This could be useful to all undergrad students who are willing to network progra
 <li> Remote Method Invocation (RMI) .</li>
 <li> HTTP Connection.</li></ol>
 <h2>Transmission Contol Protocol(TCP)</h2>
-```java
+```
 //Client side.
 Socket socket = new Socket( String host, int port ) ;
 //Server side.
 ServerSocket server = new ServerSocket( int port ) ;
 ```
 <h2>User Datagram Protocol(UDP)</h2>
-```java
+```
 //creation of UDP socket.
 DatagramSocket socket = new DatagramSocket( int port ) ;
 //sending a packet.
