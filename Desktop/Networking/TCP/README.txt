@@ -19,4 +19,25 @@ will be [upload.txt].
 
 ---------------------------------------------------------------
 
-	<h3>socket</h3>
+	socket - End point of a two-way connection (Terminals) 
+which is given a port number. 
+	Client side socket is given a host address.
+	Socket socket = new Socket( String host, int port ) ;
+	Server side socket is bound by a ServerSocket.
+	ServerSocket server = new ServerSocket ( int port ) ;
+	Socket socket = server.accept() ;
+
+------------------------------------------------------------------
+	To read input from socket :
+	DataInputStream
+	To write to a socket :
+	DataOutputStream
+	
+-------------------------------------------------------------------
+	
+	Closing the socket after communication :
+	socket.close()
+	Closing the server after communication :
+	server.close()
+
+--------------------------------------------------------------------
