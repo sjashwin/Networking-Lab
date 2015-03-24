@@ -12,7 +12,7 @@ import java.rmi.*;
 *  the routines for remote object.
 */
 public interface CallProcedureInf extends Remote {
-	public int add( int x, int y )throws RemoteException ;
-	public int sub( int x, int y )throws RemoteException ;
-	public int fact( int x )throws RemoteException ;
+	public int add( int x, int y )throws RemoteException ;	//Adds two numbers.
+	public int sub( int x, int y )throws RemoteException ;	//Subtracts two numbers.
+	public int fact( int x )throws RemoteException ;	//Computes factorial of a given number.
 }
