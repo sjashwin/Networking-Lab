@@ -11,6 +11,7 @@ import java.io.*;
 import java.net.*;
 
 public class TCP_Client_File {
+	
 	static DataOutputStream output = null ;
 	static DataInputStream input = null ;
 	static BufferedReader reader_file = null ;
@@ -18,6 +19,7 @@ public class TCP_Client_File {
 	static File file = null ;
 	static FileReader reader = null ;
 	static StringBuffer buf = new StringBuffer( 1024 ) ;
+
 	public static void main( String[] args )throws IOException {
 		socket = new Socket ( "127.0.0.1", 8000 ) ;
 		file = new File( "client.txt" ) ;	//Creates or verifies the availability of the file.
