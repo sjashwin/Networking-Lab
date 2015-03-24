@@ -12,6 +12,11 @@ This could be useful to all undergrad students who are willing to learn network 
 which is given a port number. A network is combination of an ip address and a port number.  </p>
 <h2>Port</h2>
 <p>Port is an apartment number and a socket is an apartment.</p>
+<h2>Transmission Control Protocol (TCP)</h2>
+```java
+  Socket socket = new Socket( InetAddress host, int port ) ;
+  Socket socket = new Socket ( int port ) ;
+```
 <h2>Documentation</h2>
 <ul>
 <li>ServerSocket : http://docs.oracle.com/javase/7/docs/api/java/net/ServerSocket.html</li>
