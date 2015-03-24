@@ -10,7 +10,7 @@ This could be useful to all undergrad students who are willing to network progra
 <h2>Transmission Contol Protocol(TCP)</h2>
 ```java
 //Client side.
-Socket socket = new Socket( InetAddress host, int port ) ;
+Socket socket = new Socket( String host, int port ) ;
 //Server side.
 ServerSocket server = new ServerSocket( int port ) ;
 ```
