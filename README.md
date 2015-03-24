@@ -16,6 +16,6 @@ ServerSocket server = new ServerSocket( int port ) ;
 ```
 <h2>Socket</h2>
 <p>End point of a two-way connection (Terminals) 
-which is given a port number.A network is combination of an ip address and a port number.  </p>
+which is given a port number. A network is combination of an ip address and a port number.  </p>
 <h2>Port</h2>
 <p>Port is an apartment number and a socket is an apartment.</p>
