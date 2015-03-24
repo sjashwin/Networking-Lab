@@ -7,3 +7,8 @@ This could be useful to all undergrad students who are willing to network progra
 <li> Client Server chat TCP and UDP.</li>
 <li> Remote Method Invocation (RMI) .</li>
 <li> HTTP Connection.</li></ol>
+<h2>Transmission Contol Protocol(TCP)</h2>
+```java
+//Client side.
+Socket socket = new Socket( InetAddress host, int port ) ;
+```
