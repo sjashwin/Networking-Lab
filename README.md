@@ -14,6 +14,17 @@ Socket socket = new Socket( String host, int port ) ;
 //Server side.
 ServerSocket server = new ServerSocket( int port ) ;
 ```
+<h2>User Datagram Protocol(UDP)</h2>
+```java
+//creation of UDP socket.
+DatagramSocket socket = new DatagramSocket( int port ) ;
+//sending a packet.
+DatagramPacket packet = new DatagramPacket( byte[] data, int dataLength, InetAddress ip_address, int port ) ;
+socket.send( packet ) ;
+//receiving a packet.
+DatagramPacket packet = new DatagramPacket ( byte[] data, int dataLength ) ;
+socket.send( packet ) ;
+```
 <h2>Socket</h2>
 <p>End point of a two-way connection (Terminals) 
 which is given a port number. A network is combination of an ip address and a port number.  </p>
