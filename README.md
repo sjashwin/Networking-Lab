@@ -1,7 +1,7 @@
 # Networking Experiments Using Java
 <p>It is more of a tutorial for newbis in Java and trying to learn network programming in JAVA.
 This contains all the programs that are required for a newbie in network programming using JAVA.
-This could be useful to all undergrad students who are willing to network programming in JAVA.</p>
+This could be useful to all undergrad students who are willing to learn network programming in JAVA.</p>
 <ol><li>Socket Communication.</li>
 <li> Client Server Echo TCP and UDP.</li>
 <li> Client Server chat TCP and UDP.</li>
@@ -9,14 +9,11 @@ This could be useful to all undergrad students who are willing to network progra
 <li> HTTP Connection.</li></ol>
 <h2>Transmission Contol Protocol(TCP)</h2>
 ```java
-//Client side.
 Socket socket = new Socket( String host, int port ) ;
-//Server side.
 ServerSocket server = new ServerSocket( int port ) ;
 ```
 <h2>User Datagram Protocol(UDP)</h2>
 ```java
-//creation of UDP socket.
 DatagramSocket socket = new DatagramSocket( int port ) ;
 //sending a packet.
 DatagramPacket packet = new DatagramPacket( byte[] data, int dataLength, InetAddress ip_address, int port ) ;
