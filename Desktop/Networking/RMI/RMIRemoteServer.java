@@ -10,11 +10,15 @@
 import java.rmi.*;
 import java.rmi.server.*;
 import java.io.*;
+/*
+*  This is the Remote Object created 
+*  by inheriting the RemoteObject class.
+*/
 class RMIRemoteServer extends UnicastRemoteObject implements CallProcedureInf {
 	public static void main(String args[])throws IOException {
 	}
 		RMIRemoteServer()throws RemoteException {
-			super() ;
+			super() ;	//Creates a  default UnicastRemoteObject.
 		}
 	public int add(int x, int y){
 		return ( x+y ) ;
