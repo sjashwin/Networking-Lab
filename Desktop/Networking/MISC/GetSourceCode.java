@@ -31,6 +31,7 @@ class GetSourceCode {
 		connect = site.openConnection( proxy );		//opens a connection to the webpage.
 		file_writer = new FileWriter( file );
 		String data = null ;
+		reader = new BufferedReader( new InputStreamReader( connect.getInputStream() ) ) ;
 		while( ( data = reader.readLine() ) !=null )
 			buf.append( data ) ;
 		data = buf.toString() ;
